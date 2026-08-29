@@ -1,0 +1,19 @@
+{
+  "name": "copilot-example-movies",
+  "version": "1.0.0",
+  "description": "An example app for trying out copilot cloud functionality - a favorite movie list",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/zynque/copilot-example-movies"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.5.0"
+  }
+}
