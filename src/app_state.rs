@@ -11,6 +11,7 @@ impl AppState {
         Self::default()
     }
 
+    #[cfg(test)]
     pub(crate) fn with_movies(movies: Vec<Movie>) -> Self {
         Self {
             movies: Arc::new(Mutex::new(movies)),
